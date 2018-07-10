@@ -144,7 +144,7 @@ reason that this project is still alive and hasn't migrated to Google Play Servi
 0. Submit a Pull Request through Github's interface and a project maintainer will
 decide your change's fate.
 
-_Note: issues can be submitted via [github issues](https://github.com/irshadsparky/android-PlacesAutocompleteTextView/issues/new)_
+_Note: issues can be submitted via [github issues](https://github.com/irshadsparky/PlacesAutocomplete/issues/new)_
 
 ### License
 
