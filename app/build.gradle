@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId  "com.irshad.placesautocompletedemo"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.github.irshadsparky:PlacesAutocomplete:master-SNAPSHOT'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+}
